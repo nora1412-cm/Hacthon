@@ -1,0 +1,116 @@
+/* format all website */
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Changa:wght@300;400&display=swap');
+
+* {
+    font-family: 'Almarai', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: .2s linear;
+
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* ----------------------------------------sign page------------------------------------ */
+#logo {
+    width: 100%;
+}
+
+#signup {
+    padding: 7rem 6%;
+    font-size: large;
+    font-weight: bold;
+}
+
+#signInfo {
+    padding-top: 3rem;
+}
+
+input[type=text],
+input[type=email],
+input[type=Password],
+input[type=date],
+select {
+    text-align: right;
+    font-size: large;
+    border: 1px solid rgb(31, 13, 13);
+}
+
+.herflogin {
+    text-align: center;
+}
+
+input[type=submit] {
+    font-size: larger;
+    width: 100%;
+    background-color: #7268a6c9;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(20, 37, 52, 0.369);
+}
+
+
+.herflogin {
+    padding-top: 10px;
+}
+
+
+#si {
+    color: #86A3C3;
+}
+
+/* ----------------------------------------navbar------------------------------------ */
+.navbar {
+    box-shadow: 0 2px 6px rgba(13, 13, 12, 0.062);
+    font-size: larger;
+}
+
+/* -------------------------master----------------------------- */
+#logoMasterPage {
+    width: 80%;
+}
+
+.pMaster {
+    font-size: larger;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.headingMaster {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    padding-top: 90px;
+    text-align: center;
+    color: #144495;
+}
+
+#addstu {
+    padding: 2rem 6%;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* -----------------------------footer--------------------- */
+.footer {
+    background-color: 
+    #b6cec73d;
+    text-align: center;
+    font-size: large;
+    position: sticky;
+    top: 100%;
+}
+
+.footer .credit {
+    font-size: small;
+    color: rgba(0, 0, 0, 0.496);
+
+}

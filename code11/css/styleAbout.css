@@ -1,0 +1,224 @@
+body{
+    color: #6F8BA4;
+    margin-top:20px;
+}
+.section {
+    padding: 90px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #f5f5f5;
+}
+.color-bg {
+  background-color: #4c4081;
+}
+.AA1 {
+  padding: 20px 0;
+  position: relative;
+}
+.form-bg {
+  background-color: #6B3074;
+  background: url(../img/background.png);
+    background-position-y:10px;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+.form2-bg {
+  background-color: #6B3074;
+    background-position-y:200px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+/* About Me 
+---------------------*/
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h6 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h6 {
+    font-size: 18px;
+  }
+}
+.about-text p {
+  font-size: 18px;
+  max-width: 540px;
+}
+.about-text p mark {
+  font-weight: 600;
+  color: #20247b;
+}
+
+.about-list {
+  padding-top: 10px;
+  align-content: flex-start;
+}
+.about-list .media {
+  padding: 5px 0;
+}
+.about-list label {
+  color: #20247b;
+  font-weight: 600;
+  width: 170px;
+  margin: 0;
+  text-align: right;
+  position: relative;
+}
+/*.about-list label:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 11px;
+  width: 1px;
+  height: 12px;
+  background: #20247b;
+  -moz-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  margin: auto;
+  opacity: 0.5;
+}**/
+.about-list p {
+  margin: 0;
+  font-size: 15px;
+}
+
+@media (max-width: 991px) {
+  .about-avatar {
+    margin-top: 30px;
+  }
+}
+
+.about-section .counter {
+  padding: 22px 14px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+}
+.about-section .counter .count-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about-section .counter .count {
+  font-weight: 700;
+  color: #20247b;
+  margin: 0 0 5px;
+}
+.about-section .counter p {
+  font-weight: 600;
+  margin: 0;
+}
+mark {
+    background-image: linear-gradient(#86A3C3, #86a3c3);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    background-color: transparent;
+    padding: 0;
+    color: currentColor;
+}
+.theme-color {
+    color: #86A3C3;
+    text-align: right;
+}
+.dark-color {
+    color: #20247b;
+    text-align: right;
+}
+.headerApp {
+  color: #fcf4ff;
+  text-align: center;
+  font-weight: 600;
+}
+/*the container must be positioned relative:*/
+.custom-select {
+  position: relative;
+  width: 100px;
+  margin-right: -100px;
+  font-family: Arial;
+  border-radius: 10px;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element:*/
+  
+}
+
+.select-selected {
+  background-color: #86A3C3;
+  position: relative;
+  margin-right: 20px;
+}
+
+/*style the arrow inside the select element:*/
+.select-selected:after {
+  
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 90px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+  border-radius: 10px;
+}
+
+/*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/*style the items (options), including the selected item:*/
+.select-items div,.select-selected {
+  position: relative;
+  margin-right: 0;
+  color: #2b2839;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+  user-select: none;
+}
+
+/*style items (options):*/
+.select-items {
+  position: absolute;
+  background-color: #ffffff;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-radius: 10px;
+}
+
+/*hide the items when the select box is closed:*/
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+}
